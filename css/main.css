@@ -1602,19 +1602,15 @@ body {
   text-align: center; }
 
 .parks-list .park-distance {
-  text-align: left;
-  color: #8f958e; }
+  text-align: left; }
   @media (min-width: 768px) {
     .parks-list .park-distance {
       text-align: right; } }
 
 .parks-list .park-list-item {
   margin: 5px 0; }
-  .parks-list .park-list-item .park-name span {
-    text-decoration: underline;
-    cursor: pointer; }
-    .parks-list .park-list-item .park-name span:hover {
-      color: #389e46; }
+  .parks-list .park-list-item .park-name {
+    text-decoration: underline; }
 
 h4 {
   margin-top: 1em; }
